@@ -1,0 +1,176 @@
+/* fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;600;800&display=swap');
+/* color variables */
+:root {
+  --blue: rgb(217, 192, 231);
+  --dark-grey: rgb(36, 39, 46);
+  --light-grey: rgb(231, 239, 255);
+  --green: rgb(77, 243, 207);
+  --white: rgb(249, 249, 255);
+  --mid-grey: #5a6272ff;
+  --red: rgb(226, 59, 129);
+;
+/*  inherited colors  */
+  --text: var(--onyx);
+  --h1: var(--dark-grey);
+  --h2: var(--onyx);
+  --h3: var(--green);
+  --h4: var(--onyx);
+  --h5: var(--onyx);
+  --h6: var(--onyx);
+}
+
+/* default font style */
+body{
+  font-family: 'Montserrat', sans-serif;
+  color:var(--text);
+  
+  
+}
+
+/* Heading style */
+h1 {
+   color:var(--h1);
+   font-family: 'Montserrat', sans-serif;
+   font-size: 40px;
+}
+
+h2 {
+  color:var(--h2);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+h3 {
+  color:var(--h3);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  color:var(--h4);
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+h5 {
+  color:var(--h5);
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  color:var(--h6);
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color:var(--h4);
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+ color: var(--red);
+}
+
+em { 
+  color:var(--red);
+  font-family: 'Montserrat', sans-serif;
+}
+
+section{
+  padding: 20px;
+}
+
+/* style to make style guide */
+
+
+/* body {
+  padding: 20px;
+}   */
+/* 
+section {
+
+} */
+
+img{
+  width:100%;
+ }
+
+
+/* classes */
+.nav-bar{
+  background-color:transparent;
+  border-bottom: 2px;
+  border-color: blueviolet;
+  height: 40px;
+  display: flexbox;
+  flex-direction: row;
+  
+}
+
+.description {
+background-color:transparent;
+}
+
+.about-me {
+  background-color: rgb(149, 236, 255);
+  padding: 20px;
+}
+
+.project{
+text-decoration: none;
+  background-image: linear-gradient(to right, rgb(149, 236, 255) , rgb(213, 205, 255));
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  color:var(--dark-grey);
+  width: 20rem;
+  height: 15rem;
+  border-radius: 1rem;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+
+
+/* Button design */
+
+.button{
+  text-decoration: none;
+  background-image: linear-gradient(to right, rgb(252, 26, 120) , rgb(77, 0, 193));
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  display: block;
+  color: white;
+  width: 12rem;
+  height: 3rem;
+  border-radius: 1rem;
+  justify-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  transition: .3s ease;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  
+ 
+}
+
+body {
+	background-color: linear-gradient( rgb(139, 222, 255), rgb(162, 244, 213));
+  margin: 0px;
+}
+
+
+
+#logo {
+margin:0px;
+color: var(--red);
+}
